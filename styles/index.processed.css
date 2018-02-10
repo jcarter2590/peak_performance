@@ -1,0 +1,147 @@
+h1 {
+  color: #a100ff;
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+}
+
+.links {
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+  color: #fbf9fc;
+  background-color: #0a0a0a;
+  width: 30%;
+  line-height: 1em;
+  float: left;
+  height: 800px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #9615f2;
+}
+
+a:link {
+  color: white;
+}
+
+.photo {
+  width: 70%;
+  float: right;
+}
+
+.wide {
+  width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.track_fees {
+  background-image: url(https://jcarter2590.github.io/peakperformance/images/pexels-photo-332835.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.track_fees h1 {
+  text-align: center;
+}
+
+.track_fees .underline {
+  color: red;
+}
+
+.track_fees table,
+.track_fees th,
+.track_fees td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.track_fees table {
+  width: 75%;
+}
+
+.faqs h1,
+.faqs h2,
+.faqs h3,
+.faqs h4 {
+  text-align: center;
+}
+
+.faqs h1 {
+  color: #780cb2;
+}
+
+.faqs h2,
+.faqs h3,
+.faqs h4 {
+  color: #830bc4;
+}
+
+.faqs h4 {
+  font-size: 23px;
+}
+
+.faqs p {
+  font-size: 19px;
+}
+
+.meet_info {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  background-image: url("http://ak.c.ooyala.com/d5bGNuYzplfUXFqTDAlrrRPBHvFHK6L-/Ut_HKthATH4eww8X4xMDoxOjA4MTsiGN");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.meet_info h1 {
+  text-align: center;
+}
+
+.meet_info h2,
+.meet_info h3,
+.meet_info h4 {
+  font-size: 20px;
+}
+
+.meet_info h5 {
+  font-size: 35px;
+}
+
+.meet_info p {
+  color: #a3a3a3;
+}
+
+.club_info h1 {
+  text-align: center;
+}
+
+.club_info #first-paragraph {
+  text-align: center;
+  color: #ae00ff;
+  font-size: 25px;
+}
+
+.coach .bg-image {
+  height: 600px;
+  width: 100%;
+}
+
+.registration h1 {
+  text-align: center;
+}
