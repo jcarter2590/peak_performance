@@ -50,10 +50,10 @@ h2 {
 }
 
 .track_fees {
-  background-image: url(https://jcarter2590.github.io/peakperformance/images/pexels-photo-332835.jpeg);
+  background: #004A87;
+  background-image: url(https://jcarter2590.github.io/peak_performance/images/medium_sized.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: black;
 }
 
 .track_fees h1 {
@@ -62,6 +62,11 @@ h2 {
 
 .track_fees .underline {
   color: red;
+}
+
+.track_fees:not(h1) {
+  color: white;
+  text-shadow: .5px .5px 5px black;
 }
 
 .track_fees table,

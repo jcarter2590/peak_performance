@@ -49,11 +49,14 @@ h2{
   color:red;
 }
 
-background-image: url(https://jcarter2590.github.io/peakperformance/images/pexels-photo-332835.jpeg);
+background: #004A87;
+background-image: url(https://jcarter2590.github.io/peak_performance/images/medium_sized.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-color: black;
-
+  &:not(h1){
+    color: white;
+text-shadow: .5px .5px 5px black;
+  }
 
 table, th, td {
     border: 1px solid black;
