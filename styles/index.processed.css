@@ -7,6 +7,11 @@ h1 {
   width: 100%;
 }
 
+.problem {
+  display: flex;
+  flex-direction: row;
+}
+
 .links {
   font-size: 25px;
   margin: 0px;
@@ -16,12 +21,15 @@ h1 {
   width: 30%;
   line-height: 1em;
   float: left;
-  height: 800px;
   text-decoration: none;
 }
 
 a {
   text-decoration: none;
+}
+
+a:link {
+  color: white;
 }
 
 a:visited {
@@ -30,10 +38,6 @@ a:visited {
 
 a:hover {
   color: #9615f2;
-}
-
-a:link {
-  color: white;
 }
 
 .photo {
@@ -47,6 +51,7 @@ a:link {
 
 h2 {
   font-size: 20px;
+  margin: 15px;
 }
 
 .track_fees {
@@ -143,10 +148,28 @@ h2 {
 }
 
 .coach .bg-image {
-  height: 600px;
+  height: 100vh;
   width: 100%;
 }
 
 .registration h1 {
   text-align: center;
+}
+
+.bg-image {
+  background-image: url("https://jcarter2590.github.io/peak_performance/images/coach_picture.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.spirit {
+  text-align: center;
+  font-size: 150px;
+}
+
+.spirit_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
